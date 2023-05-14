@@ -1,0 +1,69 @@
+.side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 256px;
+  height: 100vh;
+  box-shadow: 2px 0px 20px 3px #eee;
+}
+
+.side-bar__container-logo {
+  padding: 16px 24px;
+  height: 60px;
+}
+
+.side-bar__info {
+  padding: 24px;
+}
+
+.side-bar__menu-item {
+  padding: 16px 24px;
+}
+
+.side-bar__menu-item:hover .side-bar__item-icon,
+.side-bar__menu-item:hover .side-bar__item-content {
+  color: var(--hover-color);
+}
+
+.side-bar__menu-item--active .side-bar__item-icon,
+.side-bar__menu-item--active .side-bar__item-content {
+  color: var(--active-color);
+}
+
+.side-bar__item-icon {
+  font-size: 2rem;
+}
+
+.nav-bar {
+  width: calc(100vw - 256px);
+  height: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.nav-bar-btn-noti {
+  padding: 20px;
+  border: none;
+  background-color: #fff;
+}
+
+.container-icon-noti {
+  position: relative;
+}
+
+.noti-maker {
+  content: '';
+  right: 0px;
+  top: 1px;
+  width: 8px;
+  height: 8px;
+  background: var(--red-color);
+  border-radius: 9999px;
+  border: 1px solid #fff;
+  position: absolute;
+}
+
+.nav-bar-btn-noti:hover .nav-bar-btn-noti-icon {
+  color: var(--hover-color);
+}
