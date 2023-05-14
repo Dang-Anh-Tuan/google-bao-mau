@@ -5,6 +5,7 @@
   width: 256px;
   height: 100vh;
   box-shadow: 2px 0px 20px 3px #eee;
+  z-index: var(--z-side-bar);
 }
 
 .side-bar__container-logo {
@@ -40,12 +41,18 @@
   position: fixed;
   top: 0;
   right: 0;
+  z-index: var(--z-nav-bar);
 }
 
 .nav-bar-btn-noti {
   padding: 20px;
   border: none;
   background-color: #fff;
+  z-index: var(--z-notify);
+}
+
+.container-noti {
+  position: relative;
 }
 
 .container-icon-noti {
@@ -66,4 +73,27 @@
 
 .nav-bar-btn-noti:hover .nav-bar-btn-noti-icon {
   color: var(--hover-color);
+}
+
+.notify-list { 
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  width: 380px;
+  box-shadow: 0px 15px 20px 3px #eee;
+  overflow-y: auto;
+  max-height: 400px;
+  z-index: 100;
+  background: #fff;
+}
+
+.container-main-content{
+  overflow-x: hidden;
+  background: var(--bg-color);
+  position: relative;
+  top: 60px;
+  left: 256px;
+  width: calc(100vw - 256px);
+  height: calc(100vh - 60px);
+  padding: 36px;
 }

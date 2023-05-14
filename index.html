@@ -35,7 +35,6 @@
         <!-- Info  -->
         <div class="side-bar__info flex items-center">
           <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
-
           </img>
           <div class="ml-12 flex flex-col">
             <span class="font-14 font-semibold leading-22 w-120px truncate">Đặng Anh Tuấn</span>
@@ -94,7 +93,7 @@
               </div>
             </a>
           </li>
-          <li >
+          <li>
             <a class="side-bar__menu-item items-center flex cursor-pointer" href="#">
               <div class="side-bar__item-container-icon">
                 <i class="fa-solid fa-dollar-sign side-bar__item-icon text-C2CFE0"></i>
@@ -128,19 +127,111 @@
             <input type="text" class="nav-bar__input-search input input-border-b ml-16" placeholder="Search for a contact">
           </div>
           <!-- Notify  -->
-          <button class="nav-bar-btn-noti mr-16 cursor-pointer">
-            <div class="container-icon-noti">
-              <i class="fa-regular fa-bell side-bar__item-icon text-C2CFE0 nav-bar-btn-noti-icon"></i>
-              <div class="noti-maker">
+          <div class="container-noti">
+            <button 
+              class="nav-bar-btn-noti mr-16 cursor-pointer"
+              onclick="handleToggleShowListNotify()"  
+            >
+              <div class="container-icon-noti">
+                <i class="fa-regular fa-bell side-bar__item-icon text-C2CFE0 nav-bar-btn-noti-icon"></i>
+                <div class="noti-maker">
+                </div>
               </div>
-            </div>
-          </button>
+            </button>
+            <ul class="notify-list hidden">
+              <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>  <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>  <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>  <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <!-- Container main content -->
-        <div>
-
+        <div class="container-main-content">
+          <div class="flex">
+            <div>
+              <img src="./img//task.png" alt="">
+            </div>
+            <div>
+              <div>
+                <img src="./img/chart.png" alt="">
+              </div>
+              <div>
+                <img src="./img/chart2.png" alt="">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </body>
+  <script src="./js/layout.js"></script>
 </html>

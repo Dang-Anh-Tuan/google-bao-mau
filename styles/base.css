@@ -10,6 +10,9 @@
   --bg-color: #f5f6f8;
   --border-color: #ebeff2;
   --red-color: #f7685b;
+  --z-notify: 100;
+  --z-nav-bar: 100;
+  --z-side-bar: 100;
 }
 
 /* Config init  */
@@ -29,6 +32,16 @@ html {
 a {
   color: inherit;
   text-decoration: inherit; /* no underline */
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: var(--sub-sub-sub-text-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  border-radius: calc(15px / 2);
 }
 
 input,
@@ -363,3 +376,8 @@ input:active {
   border-bottom-width: 2px;
   border-color: var(--border-color);
 }
+
+.hidden {
+  display: none;
+}
+
