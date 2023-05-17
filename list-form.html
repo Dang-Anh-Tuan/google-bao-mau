@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google bảo mẫu</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/listForm.css">
+  </head>
+  <body>
+    <div class="flex">
+      <!-- Side bar  -->
+      <div class="side-bar">
+        <!-- Logo  -->
+        <div class="side-bar__container-logo border-b-1 border-EBEFF2">
+          <h3 class="font-bold font-18 leading-24 text-primary cursor-pointer" >
+            Google mama
+          </h3>
+        </div>
+        <!-- Info  -->
+        <div class="side-bar__info flex items-center">
+          <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+          </img>
+          <div class="ml-12 flex flex-col">
+            <span class="font-14 font-semibold leading-22 w-120px truncate">Đặng Anh Tuấn</span>
+            <p class="font-12 font-semibold leading-18 text-90A0B7 w-120px truncate">danganhtuan0002@gmail.com</p>
+          </div>
+        </div>
+        <!-- Menu  -->
+        <ul class="side-bar__menu border-b-1 border-EBEFF2">
+          <li >
+            <a class="side-bar__menu-item items-center flex cursor-pointer" href="#">
+              <div class="side-bar__item-container-icon">
+                <i class="fa-solid fa-chart-simple side-bar__item-icon text-C2CFE0"></i>
+              </div>
+              <div class="side-bar__item-content ml-16 flex items-center h-full font-semibold font-14 leading-20 mt-2">
+                Dashboard
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="side-bar__menu-item items-center flex cursor-pointer" href="#">
+              <div class="side-bar__item-container-icon">
+                <i class="fa-solid fa-list-check side-bar__item-icon text-C2CFE0"></i>
+              </div>
+              <div class="side-bar__item-content ml-16 flex items-center h-full font-semibold font-14 leading-20 mt-2">
+                Task
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="side-bar__menu-item items-center flex cursor-pointer" href="#">
+              <div class="side-bar__item-container-icon">
+                <i class="fa-solid fa-envelope side-bar__item-icon text-C2CFE0"></i>
+              </div>
+              <div class="side-bar__item-content ml-16 flex items-center h-full font-semibold font-14 leading-20 mt-2">
+                Email
+              </div>
+            </a>
+          </li>
+          <li>
+            <a  class="side-bar__menu-item side-bar__menu-item--active items-center flex cursor-pointer" href="#">
+              <div class="side-bar__item-container-icon">
+                <i class="fa-solid fa-paperclip side-bar__item-icon text-C2CFE0"></i>
+              </div>
+              <div class="side-bar__item-content ml-16 flex items-center h-full font-semibold font-14 leading-20 mt-2">
+                Forms
+              </div>
+            </a>
+          </li>
+          <li >
+            <a class="side-bar__menu-item items-center flex cursor-pointer" href="#">
+              <div class="side-bar__item-container-icon">
+                <i class="fa-brands fa-rocketchat side-bar__item-icon text-C2CFE0"></i>
+              </div>
+              <div class="side-bar__item-content ml-16 flex items-center h-full font-semibold font-14 leading-20 mt-2">
+                Chat
+              </div>
+            </a>
+          </li>
+          <li>
+            <a class="side-bar__menu-item items-center flex cursor-pointer" href="#">
+              <div class="side-bar__item-container-icon">
+                <i class="fa-solid fa-dollar-sign side-bar__item-icon text-C2CFE0"></i>
+              </div>
+              <div class="side-bar__item-content ml-16 flex items-center h-full font-semibold font-14 leading-20 mt-2">
+                Deals
+              </div>
+            </a>
+          </li>
+        </ul>
+        <div >
+          <a class="side-bar__menu-item items-center flex cursor-pointer" href="#">
+            <div class="side-bar__item-container-icon">
+              <i class="fa-solid fa-gear side-bar__item-icon text-C2CFE0"></i>
+            </div>
+            <div class="side-bar__item-content ml-16 flex items-center h-full font-semibold font-14 leading-20 mt-2">
+              Setting
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- Main content -->
+      <div class="flex-grow">
+        <!-- Nav bar -->
+        <nav class="nav-bar border-b-1 border-EBEFF2 flex flex-between">
+          <!-- Search Input  -->
+          <div class="flex ml-16 items-center">
+            <div class="side-bar__item-container-icon nav-bar__icon-search">
+              <i class="fa-solid fa-magnifying-glass side-bar__item-icon text-C2CFE0 nav-bar__icon"></i>
+            </div>
+            <input type="text" class="nav-bar__input-search input input-border-b ml-16" placeholder="Search for a contact">
+          </div>
+          <!-- Notify  -->
+          <div class="container-noti">
+            <button 
+              class="nav-bar-btn-noti mr-16 cursor-pointer"
+              onclick="handleToggleShowListNotify()"  
+            >
+              <div class="container-icon-noti">
+                <i class="fa-regular fa-bell side-bar__item-icon text-C2CFE0 nav-bar-btn-noti-icon"></i>
+                <div class="noti-maker">
+                </div>
+              </div>
+            </button>
+            <ul class="notify-list hidden">
+              <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+              <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>  <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>  <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>  <li class="border-b-1 border-EBEFF2">
+                <a class="side-bar__menu-item items-center flex cursor-pointer " href="#">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar">
+                  </img>
+                  <div class="ml-16 ">
+                    <span class="font-14 font-semibold leading-20 text-primary">Đặng Anh Tuấn</span>
+                    <span class="font-14 font-normal leading-20 text-90A0B7">đã thêm bảo mẫu mới</span>
+                    <span class="ml-2 font-14 font-semibold leading-20 text-334D6E">Khảo sát framework học viên muốn được đào tạo</span>
+                    <div class="flex mt-4">
+                      <i class="fa-solid fa-clock font-14 text-334D6E"></i>
+                      <span class="font-14 ml-4 text-334D6E">23:00</span>
+                    </div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- Container main content -->
+        <div class="container-main-content">
+          <!-- Filter Bar  -->
+          <div class="flex items-center flex-between mb-36">
+            <div>
+              <span class="font-12 text text-707683 leading-20 font-normal">Company:</span>
+              <select class="select font-12 text leading-20 font-normal">
+                <option class="select-option" value="0">All</option>
+                <option class="select-option" value="1">Type1</option>
+                <option class="select-option" value="2">Type2</option>
+                
+              </select>
+            </div>
+            <button class="btn btn--disable">
+              Add new form
+            </button>
+          </div>
+          <!-- Table -->
+          <div class="table">
+            <!-- Header Table -->
+            <div class="flex border-b-1 border-EBEFF2 gap-12">
+              <!-- Check box  -->
+              <div class="flex items-center flex-center w-80px h-48px">
+                <label class="container-checkbox">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <!-- Author  -->
+              <div class="flex items-center w-230px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E">Author</p>
+              </div>
+              <!-- FTitle  -->
+              <div class="flex items-center w-230px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E">Title</p>
+              </div>
+              <!-- Description  -->
+              <div class="flex items-center w-230px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E">Description</p>
+              </div>
+              <!-- Amount answer  -->
+              <div class="flex items-center flex-center w-100px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E">Amount</p>
+              </div>
+              <!-- Tag  -->
+              <div class="flex items-center flex-center w-230px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E">Tags</p>
+              </div>
+              <!-- Action  -->
+              <div class="flex items-center flex-center w-230px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E">Action</p>
+              </div>
+            </div>
+
+            <!-- Item Table -->
+            <div class="flex border-b-1 border-EBEFF2 gap-12 table-item">
+              <!-- Check box  -->
+              <div class="flex items-center flex-center w-80px h-48px">
+                <label class="container-checkbox">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <!-- Author  -->
+              <div class="flex items-center w-230px h-64px">
+                <div class="flex items-center">
+                  <img src="https://vcdn1-giaitri.vnecdn.net/2020/03/29/991816090-56782878-2.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=FalyTpb6BDBE3vFkujJ-TQ" class="avatar avatar--small">
+                  </img>
+                  <div class="ml-12 flex flex-col">
+                    <span class="font-14 font-semibold leading-22 text-707683">Đặng Anh Tuấn</span>
+                  </div>
+                </div>
+              </div>
+              <!-- FTitle  -->
+              <div class="flex items-center w-230px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E clamp-3 ">Khảo sát về framework học viên mong muốn hảo sát về framework học viên mong muốn</p>
+              </div>
+              <!-- Description  -->
+              <div class="flex items-center w-230px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E clamp-3">Mô tả ...</p>
+              </div>
+              <!-- Amount answer  -->
+              <div class="flex items-center flex-center w-100px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E">50</p>
+              </div>
+              <!-- Tag  -->
+              <div class="flex items-center flex-center w-230px h-64px">
+                <p class="font-semibold font-14 leading-20 text-334D6E">Tags</p>
+              </div>
+              <!-- Action  -->
+              <div class="flex items-center flex-center w-230px h-64px">
+               <a href="/edit">
+                <i class="fa-solid fa-pen-to-square font-16 text-primary"></i>
+               </a>
+               <a href="/delete">
+                <i class="fa-solid fa-trash font-16 text-F7685B ml-16"></i>
+               </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./js/layout.js"></script>
+</html>

@@ -1,0 +1,10 @@
+.table {
+  width: 100%;
+  min-height: 400px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px 3px #eee;
+}
+
+.table-item:hover {
+background: var(--border-color);
+}
