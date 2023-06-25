@@ -11,7 +11,23 @@ const record1 = {
   createdAt: new Date(),
   amountAnswer: 12,
   tags: ["jav", "dienvien", "blabla"],
-  questions: [],
+  questions: [
+    // {
+    //   id : 1,
+    //   question : 'cau hoi 1',
+    //   type : 'input?checkbox|radio',
+    //   options : [
+    //     {
+    //       id: 23,
+    //       name: 'lua chon A'
+    //     },
+    //     {
+
+    //     }
+    //   ],
+    //   answer : [23,34,45]
+    // }
+  ],
 };
 
 const record2 = {
